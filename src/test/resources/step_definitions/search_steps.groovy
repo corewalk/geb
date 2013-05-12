@@ -24,6 +24,7 @@ Then(~'The first link should be "(.+)"') { searchTerm ->
 class GoogleHomePage extends Page {
 	
 	static url = 'http://www.google.com/'
+	static mihai = 'abc'
 
 	static at = {
 		assert title == 'Google'
