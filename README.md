@@ -8,4 +8,4 @@ skeleton project [change here done] for demonstrating the integration between Cu
 
 to run the project: mvn clean test package
 ----------------------------------------------
-[README]
+[change locally]
