@@ -28,7 +28,9 @@ class GoogleHomePage extends Page {
 	static at = {
 		assert title == 'Google'
 	}
-
+	
+	static alina='asds' 
+	
 	static content = {
 		searchInput { $('input', name: 'q') }
 		searchButton { $('button', name: 'btnG') }
