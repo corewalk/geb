@@ -6,13 +6,13 @@ XXXXXXXXXXXXXXXXXXXXXXXXXX
 [3] Remote change
 Cucumber-jvm-geb-example
 
-skeleton project [change here done] for demonstrating the integration between Cucumber-jvm and Geb
+Skeleton project [change here done] for demonstrating the integration between Cucumber-jvm and Geb
 
 XXXXXXXXXXXXXXXXXXXXXXXXXX
 
-to run the project: mvn clean test package
+To run the project: mvn clean test package
 ----------------------------------------------
-[change locally]
+[Change locally]
 
 
 XXXXXXXXXXXXXXXXXXXXXXXXXX
