@@ -2,6 +2,9 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	
 	<modelVersionw>555.0.0</modelVersion>
+	<modelVersionx>2.0.0</modelVersion>
+	<modelVersionx>2.0.0</modelVersion>
+	<modelVersionx>4.0.0</modelVersion>
   	<groupId>com.zaorish</groupId>
   	<artifactId>cucumber-jvm-geb-example</artifactId>
   	<version>0.0.1-SNAPSHOT</version>
