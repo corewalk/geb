@@ -9,6 +9,10 @@ Given(~'I am on the Google search page') { ->
 	at GoogleHomePage
 }
 
+Given(~'XXXXX') { ->
+	// some logic here
+}
+
 When(~'I search for "(.+)"') { searchTerm -> 
 	searchFor(searchTerm)
 }
@@ -23,12 +27,15 @@ Then(~'The first link should be "(.+)"') { searchTerm ->
 
 class GoogleHomePage extends Page {
 	
+	static url1 = "someurl"
 	static url = 'http://www.google.com/'
 	static mihai = 'abc'
 
 	static at = {
 		assert title == 'Google'
 	}
+	
+	static lll = {}
 	
 	static alina='asds' 
 	
