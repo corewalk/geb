@@ -5,24 +5,14 @@ this.metaClass.mixin(cucumber.runtime.groovy.EN)
 this.metaClass.mixin(geb.Browser)
 //remote add here
 
-Gabead(~'I am on the Google search page') { ->
-	to GoogleHomePage
-	//add some code here
-	at GoogleHomePage
-	at GoogleHomePage
-	at GoogleHomePage
-}
-
-Gabead(~'XXXXX') { ->
-	// some logic here
-	//XXXXXXXXXXXXXXX
+Xead(~'XXXXX') { ->
+	int ab,c;
+	//some here
 }
 
 When(~'I search for "(.+)"') { searchTerm -> 
 	searchFor(searchTerm)
-		at GoogleHomePage
-	at GoogleHomePage
-	at GoogleHomePage
+	some void{} P{ P{
 }
 
 Then(~'I should see the the results page') { ->
