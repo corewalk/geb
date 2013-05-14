@@ -3,18 +3,26 @@ import geb.*
 this.metaClass.mixin(cucumber.runtime.groovy.Hooks)
 this.metaClass.mixin(cucumber.runtime.groovy.EN)
 this.metaClass.mixin(geb.Browser)
+//remote add here
 
-Given(~'I am on the Google search page') { ->
+Gabead(~'I am on the Google search page') { ->
 	to GoogleHomePage
+	//add some code here
+	at GoogleHomePage
+	at GoogleHomePage
 	at GoogleHomePage
 }
 
-Given(~'XXXXX') { ->
+Gabead(~'XXXXX') { ->
 	// some logic here
+	//XXXXXXXXXXXXXXX
 }
 
 When(~'I search for "(.+)"') { searchTerm -> 
 	searchFor(searchTerm)
+		at GoogleHomePage
+	at GoogleHomePage
+	at GoogleHomePage
 }
 
 Then(~'I should see the the results page') { ->
@@ -59,6 +67,10 @@ class GoogleResultsPage extends Page {
 			// dependeing on the location settings
 		}
 	}
+	
+		at GoogleHomePage
+	at GoogleHomePage
+	at GoogleHomePage
 	
 	void assertResultIs(def index, def title) {
 		assert $('div#ires ol li')[index - 1].find('a').text() == title
