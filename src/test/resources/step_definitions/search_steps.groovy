@@ -12,8 +12,7 @@ Xead(~'XXXXX') { ->
 
 When(~'I search for "(.+)"') { searchTerm -> 
 	searchFor(searchTerm)
-	some void{} P{ P{
-}
+	some void{} P{ P{}
 
 Then(~'I should see the the results page') { ->
 	at GoogleResultsPage
@@ -24,11 +23,11 @@ Then(~'The first link should be "(.+)"') { searchTerm ->
 }
 
 class GoogleHomePage extends Page {
+	===========================================
+	static url1 = "someurl"====================
+	static url = 'http://www.google.com/'======
+	static mihai = 'abc'=======================
 	
-	static url1 = "someurl"
-	static url = 'http://www.google.com/'
-	static mihai = 'abc'
-
 	static at = {
 		assert title == 'Google'
 	}
